@@ -6,6 +6,10 @@ _Because sometimes you need to prove you've been working hard, not hardly workin
 
 GitLab Activity Extractor is a powerful tool that analyzes your GitLab commit history and generates detailed reports about your coding activity. Whether you're tracking project progress, preparing for performance reviews, or just curious about your work patterns, this tool has got you covered.
 
+## 📖 Story Time
+
+This project started when my time tracking software crapped out and I needed a quick way to generate activity reports for invoicing my clients. I realized that GitLab has all the data I need, so I decided to build a tool that could extract and analyze that data. And thus, GitLab Activity Extractor was born! The 20 minutes per commit is kind of a guess for me, but you can adjust this as needed. I hope you find this tool useful for your own projects!
+
 ## ✨ Features
 
 - 🗂️ **Repository-Level Analysis**: Break down activity by repository (because not all repos are created equal)
