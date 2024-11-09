@@ -125,8 +125,6 @@ class ReportGenerator:
                         days:,} | {additions:,} | {deletions:,} |\n")
 
             # Write totals row
-            f.write(
-                "|------------|---------|---------------|-------------|-------------|---------------|\n")  # noqa
             f.write(f"| **TOTAL** | **{total_commits:,}** | **{total_minutes:,}** | **-** | **{  # noqa
                     total_additions:,}** | **{total_deletions:,}** |\n\n")
 
